@@ -1,0 +1,157 @@
+/* Responsive */
+
+/*Mobile*/
+@media only screen and (min-width: 320px) and (max-width: 767px){
+.about_pillar {width: auto;position: static;}
+.about_details {max-width: 97%;}
+#quote-carousel .carousel-indicators{height: auto;}
+#quote-carousel .carousel-indicators li {width: 40%;height: auto;margin: 5px 10px;}
+.xs-2 {width: 100%;}
+.xs-4 {width: 100%;}
+.headergrp_location span {margin: auto;width: 100%;float: left;margin-bottom: 12px;}
+div#countdown .timer-wrapper .time{font-size:22px;}
+div#countdown .timer-wrapper .text{font-size:12px;}
+div#countdown div.timer-wrapper{width:60px;padding:10px 0;}
+.list_panel ul li{width:100%;margin:0;}
+.upcoming_speakers li{width:100%;}
+#program-head .tab-content:before{left:5%;}
+.program-details li::before{left:-12%;}
+.grpn_sponsors ul li{width:100%;}
+.maima_left{width:100%;float:left;}
+.maima_right{width:100%;float:right;margin-left:0;}
+.maima_silder p{color:#8e8e8e;font-size:12px;line-height:initial;text-align:left;}
+.homegroup-platform h1{font-size:24px;margin-bottom:40px;}
+.mycascade-formatter{max-width:100%;padding:10px;width:300px !important;margin-top:15px;}
+#commited_slider .cascade-slider_container{height:auto;margin-top:180px;}
+#commited_slider .cascade-slider_arrow-left{left:3%;}
+#commited_slider .cascade-slider_arrow-right{right:3%;}
+#commited_slider .cascade-slider_item.next{transform:none;opacity:0;}
+#commited_slider .cascade-slider_item.prev{transform:none;opacity:0;}
+.group-contactleft{width:100%;float:left;}
+.group-contactleft form{width:100%;padding:0 15px;margin:0;}
+.group-mapright{width:100%;float:left;margin-top:15px;}
+.address_section{height:auto;}
+.address_section ul{width:100%;padding:0;border:0 !important;}
+.group-contactform{height:100%;}
+ ul.dropdown-menu.respon-active::after{display:none;}
+/*menu*/
+nav#natuical-navbar .navbar-nav>li.active a{color:#fff;}
+li.mobile-close{display:block;text-align:right;width:auto !important;float:right !important;}
+li.mobile-close i{font-size:24px;padding:24px;color:#fff;}
+nav#natuical-navbar .navbar-nav li{width:100%;float:left;}
+ul.dropdown-menu.respon-active{display:block;margin-left:16px;}
+nav#natuical-navbar div#myNavbar{padding:0;position:fixed;width:100%;float:left;z-index:9999;left:-100%;top:0;height:100%;min-height:100%;display:block !important;transition:all 0.4s ease 0s;}
+nav#natuical-navbar .navbar-nav{float:left;margin:auto;width:100%;background-color:#083b66 !important;height:100%;color:#333 !important;}
+nav#natuical-navbar ul.dropdown-menu li a{padding:7px;color:#fff;}
+nav#natuical-navbar ul.dropdown-menu{padding:7px;border-radius:0;position:static;width:100%;background:transparent;box-shadow:none;padding-left:27px;border:0;}
+/*menu*/
+.mylist_arvrcontainer ul li::before{content:"";position:absolute;left:0;width:10px;height:10px;background:red;border-radius:50%;margin-top:4px;}
+.mlist_para{width:100%;float:left;text-align:center;}
+.mlist_img{width:100%;float:left;}
+.mlist_img img{margin:auto;}
+.machine_list_details ul{width:100%;float:left;padding:30px 0;}
+.mylist_arvrcontainer ul li{float:left;position:static;width:100%;margin-bottom:10px;padding-left:15px;}
+.mylist_arvrcontainer ul{background:none;}
+.product-header.myarvr-images img{width:300px !important;}
+.iot-title{padding:0 15px;}
+.internet_things.iot-pattern{background-size:cover;background-position:top;}
+.innovation-imagesinfo img{margin-bottom:24px;}
+.mygroup-footer-menusite{margin-left:0;}
+.mydroup-footer-logo p{text-align:center;}
+.natuical-boat-content p{font-size:22px;}
+.grp-hometitle h1, .listdate-contentinner h1{font-size:26px;}
+.testimonial-frontside img{width:100%;}
+.meetour_team{height:auto;max-height:100%;}
+.natuical-event h1{font-size:26px;margin-bottom:24px;}
+.testimonial-backside{margin:0;width:100%;min-height:100%;}
+.mydroup-footer-logo img{margin:auto;}
+section.home-banner-page{min-height:630px;}
+.grp-titlecontent h3{font-size:20px;}
+.grp-titleimage img{width:100%;}
+nav#natuical-navbar .navbar-nav{float:left;margin:auto;width:100%;background-color:rgba(255,255,255,0.5);}
+.mygroup-footer-menusite ul{width:50%;float:left;margin-bottom:20px;}
+nav#natuical-navbar div#myNavbar{padding:0;}
+/*Product*/
+.product-header img{position:static;}
+.product-meantime img{height:321px;margin-bottom:40px;}
+.listmain-images{width:100%;float:left;}
+.listmain-images img{margin:auto;}
+.listmain-content{width:100%;float:left;margin-left:0;margin-top:30px;text-align:center;}
+/*Product*/
+}
+/*Small-Mobile*/
+@media only screen and (min-width: 320px) and (max-width: 500px){
+nav#natuical-navbar .navbar-brand {max-width: 215px;}
+.mydroup-footer-logo p {font-size: 12px; text-align: center;}
+.xs-3 {width: 100%;}
+.docu_icon img {float: none;margin: auto;margin-bottom: 30px;}
+.xs-7 {width: 100%;float: left;padding-left: 0;text-align: center;}
+}
+/*tablet*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.about_details {max-width: 97%;}
+.xs-3 {width: 100%;}
+.xs-2 {padding: 0;}
+.docu_images {padding: 50% 0;}
+.xs-7 {width: 100%;float: left;padding-left: 0;text-align: center;padding-top: 15px;}
+.docu_icon img {float: none;margin: auto;}
+.list_panel ul li{width:46%;margin-bottom:30px;}
+.upcoming_speakers li{width:50%;}
+.grpn_sponsors ul li{width:50%;float:left;margin-bottom:20px;min-height:125px;}
+.program-details li::before{left:-43px;}
+.machine_list_details ul{width:100%;float:left;padding:30px 0;}
+.mylist_arvrcontainer ul li:nth-child(3){left:36%;bottom:0px;}
+.mylist_arvrcontainer ul li:nth-child(4){left:50%;top:0px;}
+.mylist_arvrcontainer ul li:nth-child(5){right:0px;bottom:0px;left:64%;}
+.mylist_arvrcontainer ul li:nth-child(2){left:7%;top:0px;}
+.innovation-imagesinfo img{margin-bottom:25px;}
+.mylist_arvrcontainer ul li{float:left;width:100%;font-size:12px;}
+/*menu*/
+.navbar-header{float:left;width:100%;}
+.navbar-toggle{display:block;}
+nav#natuical-navbar .navbar-nav>li.active a{color:#fff;}
+li.mobile-close{display:block;text-align:right;width:auto !important;float:right !important;}
+li.mobile-close i{font-size:24px;padding:24px;color:#fff;}
+nav#natuical-navbar .navbar-nav li{width:100%;float:left;}
+ul.dropdown-menu.respon-active{display:block;margin-left:16px;}
+nav#natuical-navbar div#myNavbar{padding:0;position:fixed;width:50%;float:left;z-index:9999;left:-100%;top:0;height:100% !important;min-height:100%;display:block !important;transition:all 0.4s ease 0s;}
+nav#natuical-navbar .navbar-nav{float:left;margin:auto;width:100%;padding-left:25px;background-color:#083b66 !important;height:100%;color:#333 !important;}
+nav#natuical-navbar ul.dropdown-menu li a{padding:7px;color:#fff;}
+nav#natuical-navbar ul.dropdown-menu{padding:7px;border-radius:0;position:static;width:100%;background:transparent;box-shadow:none;padding-left:27px;border:0;}
+/*menu*/
+.iot-title{padding:0 15px;}
+.internet_things.iot-pattern{background:url(../images/line_pattern.png) no-repeat;background-size:cover;background-position:left;}
+.testimonial-frontside img{width:100%;height:265px;}
+.mydroup-footer-logo img{margin:auto;}
+.mydroup-footer-logo p{text-align:center;margin-bottom:24px;}
+.natuical-boat-content p{font-size:26px;}
+nav#natuical-navbar .navbar-brand{max-width:220px;}
+.natuical-boat-content img{max-width:630px;}
+nav#natuical-navbar .navbar-nav>li>a{font-size:14px;padding:10px 7px;}
+.grp-titlecontent p{font-size:23px;line-height:28px;}
+.grp-titlecontent h3{margin-bottom:10px;}
+.mygroup-footer-menusite{margin-left:0;}
+.product-header img{position:static;right:0;width:400px;top:0;left:0;margin:auto;}
+.product-listmaintainer ul{padding-top:50px;}
+.product-header-content{margin:30px auto;}
+.product-dia-right h1{text-align:center;}
+.product-dia-right h1::after{margin:auto;}
+.product-dia-right p{text-align:center;}
+#commited_slider .mycascade-formatter{width:600px;}
+#commited_slider .cascade-slider_container{height:auto;margin-top:170px !important;}
+#commited_slider .cascade-slider_item.prev{left:31% !important;}
+#commited_slider .cascade-slider_item.next{left:50% !important;}
+#commited_slider .cascade-slider_arrow-right{right:3%;}
+#commited_slider .cascade-slider_arrow-left{left:1%;}
+/*end*/
+
+}
+/*Laptop*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	
+}
+/* Large-Desktop */
+@media only screen and (min-width: 1920px){
+.container {width: 100%;max-width: 85%;}	
+}
